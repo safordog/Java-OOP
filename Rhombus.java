@@ -4,7 +4,7 @@ import static com.gmail.safordog.Point.length;
 
 public class Rhombus extends Shape {
 	
-	private Point a;
+    private Point a;
     private Point b;
     private Point c;
     private Point d;
@@ -63,7 +63,7 @@ public class Rhombus extends Shape {
     }
 
     @Override
-    String getType() {
+    public String getType() {
         return "Rhombus";
     }
 
