@@ -2,7 +2,7 @@ package com.gmail.safordog;
 
 public class Doska {
 	
-	static Doska[] array = new Doska[4];
+    protected static Doska[] array = new Doska[4];
     private String type;
     private double area;
     
