@@ -30,7 +30,7 @@ public class Triangle extends Shape {
 	}
 
 	@Override
-	String getType() {
+	public String getType() {
 		return "Triangle";
 	}
 
