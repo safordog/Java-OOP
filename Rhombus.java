@@ -4,7 +4,7 @@ import static com.gmail.safordog.Point.length;
 
 public class Rhombus extends Shape {
 	
-	 	private Point a;
+	    private Point a;
 	    private Point b;
 	    private Point c;
 	    private Point d;
@@ -53,12 +53,12 @@ public class Rhombus extends Shape {
 	    }
 	    
 	    @Override
-	    double getPerimetr() {
+	    public double getPerimetr() {
 	        return length(a, b) * 4;
 	    }
 
 	    @Override
-	    double getArea() {
+	    public double getArea() {
 	        return (length(a, c) * length(b, d)) / 2; 
 	    }
 
