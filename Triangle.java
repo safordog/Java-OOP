@@ -4,7 +4,7 @@ import static com.gmail.safordog.Point.length;
 
 public class Triangle extends Shape {
 	
-	private Point a;
+    private Point a;
     private Point b;
     private Point c;
     
@@ -19,13 +19,13 @@ public class Triangle extends Shape {
     }
 
     @Override
-    double getPerimetr() {
+    public double getPerimetr() {
         return length(a, b) + length(b, c) + length (a, c);
     }
     
 
     @Override
-    double getArea() {
+    public double getArea() {
         double halfPer = (length(a, b) + length(b, c) + length (a, c)) / 2;
         return Math.sqrt(halfPer * (halfPer - length (a, b)) 
                 * (halfPer - length (b, c)) * (halfPer - length (a, c)));
