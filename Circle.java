@@ -17,12 +17,12 @@ public class Circle extends Shape {
 	    }
 	    
 	    @Override
-	    double getPerimetr() {
+	    public double getPerimetr() {
 	        return 2 * Math.PI * length(a, b);
 	    }
 
 	    @Override
-	    double getArea() {
+	    public double getArea() {
 	        return Math.PI * Math.pow(length(a, b), 2);
 	    }
 
