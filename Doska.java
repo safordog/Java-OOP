@@ -52,7 +52,8 @@ public class Doska {
     	double sum = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] != null) {
-            System.out.println("[" + i + "]" + " " + array[i].type + " - area: " + array[i].area);
+            System.out.println("[" + i + "]" + " " + array[i].type 
+			       + " - area: " + array[i].area);
             sum = sum + array[i].area;
             }
         }
