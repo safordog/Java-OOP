@@ -4,7 +4,7 @@ import static com.gmail.safordog.Point.length;
 
 public class Circle extends Shape {
 	
-	private Point a; 
+    private Point a; 
     private Point b;
     
     public Circle(Point a, Point b) {
